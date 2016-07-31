@@ -1,3 +1,5 @@
+# Max Score: 80
+# Difficult: Difficult
 namespace :algorithms do
 
   namespace :strings do
