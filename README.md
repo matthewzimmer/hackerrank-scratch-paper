@@ -1,4 +1,5 @@
-# README
+# hackerrank-scratch-paper
+Scratch pad of my work for various challenges on Hacker Rank.
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
