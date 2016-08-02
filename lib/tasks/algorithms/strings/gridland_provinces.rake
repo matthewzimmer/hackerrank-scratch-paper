@@ -74,32 +74,12 @@ namespace :algorithms do
   namespace :strings do
 
     task :mock => :environment do
-      p1r1 = ['a']
-      p1r2 = ['a']
-
-      p2r1 = %w(d a b)
-      p2r2 = %w(a b d)
-
-      p3r1 = %w(a b a b a)
-      p3r2 = %w(b a b a b)
-
-      p4r1 = %w(a b a)
-      p4r2 = %w(a b a)
-
-      p5r1 = 'apslwodkejfitmgkflwodiendlficmeowlqnaifn'.scan(/\w/)
-      p5r2 = 'qirofidklgofkcmdnrkrokdkwjwmckfldlwmvbvw'.scan(/\w/)
-
       @provinces = []
-      p1 = [p1r1, p1r2]
-      p2 = [p2r1, p2r2]
-      p3 = [p3r1, p3r2]
-      p4 = [p4r1, p4r2]
-      # @provinces << p1
-      # @provinces << p2
-      # @provinces << p3
-      # @provinces << p4
-      # @provinces << [p5r1, p5r2]
-      # @provinces << ['poiuytrewq'.scan(/\w/), 'zasxcdfvgb'.scan(/\w/)]
+      # @provinces << ['a'.scan(/\w/), 'a'.scan(/\w/)]
+      # @provinces << ['dab'.scan(/\w/), 'abd'.scan(/\w/)]
+      # @provinces << ['ababa'.scan(/\w/), 'babab'.scan(/\w/)]
+      # @provinces << ['aba'.scan(/\w/), 'aba'.scan(/\w/)]
+      # @provinces << ['apslwodkejfitmgkflwodiendlficmeowlqnaifn'.scan(/\w/), 'qirofidklgofkcmdnrkrokdkwjwmckfldlwmvbvw'.scan(/\w/)]
       @provinces << ['poiuytrewqep'.scan(/\w/), 'zasxcdfvgbxz'.scan(/\w/)]
       # @provinces << ['qwertyuioplkjhg'.scan(/\w/), 'zasxdcvfgbnhjmk'.scan(/\w/)]
 
