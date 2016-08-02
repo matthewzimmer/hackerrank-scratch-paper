@@ -144,8 +144,8 @@ namespace :algorithms do
           n.times.each do |col| # columns
             new_map = deep_clone(map)
             stack = [[row, col]]
-            next_paths = find_next_cities(stack, new_map, row_bounds, col_bounds)
-            next_paths.each do |voyage|
+            next_cities = find_next_cities(stack, new_map, row_bounds, col_bounds)
+            next_cities.each do |voyage|
               if voyage.size == (m*n)
                 voyages << voyage
               end
@@ -281,7 +281,7 @@ def find_next_cities(journey, map, row_bounds, col_bounds)
   # We're done in this city so remove ourselves from the map marking us as traveled to.
   map[row][col] = nil
 
-  # For all new paths, create a new stack and map and travel to new destinations.
+  # For all new cities, create a new journey and map and travel to new destinations.
   new_map = deep_clone(map)
   new_journey = deep_clone(journey)
   next_cities.each_with_index do |next_city, idx|
