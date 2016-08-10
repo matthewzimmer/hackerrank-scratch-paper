@@ -1,0 +1,74 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		FC8C1FEB1D5915350043EAC1 /* input_and_output.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = input_and_output.cpp; sourceTree = "<group>"; };
+		FC8C1FEC1D5915350043EAC1 /* input_and_output.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = input_and_output.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		FC8C1FE41D59150C0043EAC1 = {
+			isa = PBXGroup;
+			children = (
+				FC8C1FEB1D5915350043EAC1 /* input_and_output.cpp */,
+				FC8C1FEC1D5915350043EAC1 /* input_and_output.hpp */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		FC8C1FE51D59150C0043EAC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = FC8C1FE81D59150C0043EAC1 /* Build configuration list for PBXProject "Hacker Rank Scratch Pad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC8C1FE41D59150C0043EAC1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		FC8C1FE91D59150C0043EAC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		FC8C1FEA1D59150C0043EAC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC8C1FE81D59150C0043EAC1 /* Build configuration list for PBXProject "Hacker Rank Scratch Pad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8C1FE91D59150C0043EAC1 /* Debug */,
+				FC8C1FEA1D59150C0043EAC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC8C1FE51D59150C0043EAC1 /* Project object */;
+}
